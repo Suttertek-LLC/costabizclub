@@ -1,0 +1,92 @@
+/* Costa Biz Club - Basic Styling */
+
+/* Import Orbitron font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+/* Base body styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5faff;
+  color: #003a63;
+}
+
+/* Header styles with background image */
+header {
+    background: url('img/Costa del Sol Aerial 2.jpg') center center no-repeat;
+    background-size: cover; /* Fill width and height while cropping edges */
+    text-align: center;
+    height: 600px; /* Increase for more height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Logo image inside header */
+.logo {
+  max-width: 180px;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #e0f0ff;
+  padding: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #003a63;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007acc;
+}
+
+/* Main content sections */
+section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #e0f0ff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #003a63;
+}
+
+/* Orbitron branded Suttertek logo */
+footer .suttertek {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8rem; /* Reduced font size further */
+}
+
+footer .suttertek .sutter {
+  color: #091B74;
+}
+
+footer .suttertek .tek {
+  color: #E9592D;
+}
