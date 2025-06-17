@@ -13,7 +13,9 @@
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
       rel="stylesheet"
     />
+    <script src="assets/js/members.js" defer></script>
   </head>
+
   <body>
     <!-- Header with logo and background image -->
     <header>
@@ -56,7 +58,16 @@
     <!-- Directory section -->
     <section id="directory">
       <h2>Members' Directory</h2>
-      <p>Only accessible to approved CDS residents. Coming soon!</p>
+
+      <!-- 🔍 Search Field -->
+      <input
+        type="text"
+        id="memberSearch"
+        placeholder="Search by name, business, or type..."
+      />
+
+      <!-- 💳 Member Cards Grid -->
+      <div id="directory-list" class="directory-grid"></div>
     </section>
 
     <!-- Meetup info section -->
