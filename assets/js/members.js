@@ -12,6 +12,7 @@ Dorothy;Griggs;(+1) 305-789-4567;dlgriggs332@gmail.com;Keyes Co.;;Real Estate;Do
 Sergio;Martins;(+1) 786-432-0001;Info@Sergiorealtor.com;Premier Luxe Group LLC;https://www.premierluxegroup.com;Real Estate;Sergio.jpg;Yes;Yes
 Faisal;Quintar;(+1) 786-370-2476;prompt.rehabilitation@gmail.com;PromPT Rehabilitation Group LLC;https://prompt-rehabilitation.com/;Health & Wellness;;Yes;Yes
 Paola;Cedeno;(+1) 954-401-2767;info@greencornerwall.com;Green Corner Wall Co.;https://www.greencornerwall.com;Eco-friendly Wallpaper;;Yes;Yes
+Philip;Sherlock;(+1) 954-478-6392;Philip.Sherlock@avoyanetwork.com;All Aboard Intl. Com;https://trips.allaboardinternational.com;Travel Agency;;Yes;Yes
 `.trim();
 
 // ================================
@@ -20,7 +21,6 @@ Paola;Cedeno;(+1) 954-401-2767;info@greencornerwall.com;Green Corner Wall Co.;ht
 const rows = csvData.split('\n');
 const headers = rows[0].split(';');
 
-// Convert each row into a member object
 const members = rows.slice(1).map(row => {
   const values = row.split(';');
   const member = {};
@@ -30,18 +30,32 @@ const members = rows.slice(1).map(row => {
   return member;
 });
 
+let filteredMembers = [...members];
+let currentPage = 1;
+const MEMBERS_PER_PAGE = 3;
+
 // =====================================
-// Function to render the member cards
+// Function to render a page of members
+// =====================================
+function renderDirectoryPage(page) {
+  const start = (page - 1) * MEMBERS_PER_PAGE;
+  const end = start + MEMBERS_PER_PAGE;
+  const currentMembers = filteredMembers.slice(start, end);
+  renderDirectory(currentMembers); // Use unified render function
+  renderPaginationControls(page);
+}
+
+// =====================================
+// Function to render member cards
 // =====================================
 function renderDirectory(memberList) {
   const container = document.getElementById('directory-list');
-  container.innerHTML = ''; // Clear any existing cards
+  container.innerHTML = '';
 
   memberList.forEach(member => {
     const showPhone = member["Show Phone?"]?.toLowerCase() === "yes";
     const showEmail = member["Show Email?"]?.toLowerCase() === "yes";
 
-    // Skip the card entirely if both phone and email are hidden
     if (!showPhone && !showEmail) return;
 
     const card = document.createElement('div');
@@ -54,10 +68,10 @@ function renderDirectory(memberList) {
     card.innerHTML = `
       <img src="${imgSrc}" alt="${member.Name}" class="member-photo">
       <h3>${member.Name} ${member["Last Name"] || ''}</h3>
-      <p><strong>${member["Business Name"] || ''}</strong></p>
-      <p><em>${member["Type of Business"] || ''}</em></p>
+      <p class="business"><strong><span title="${member["Business Name"]}">${member["Business Name"] || ''}</span></strong></p>
+      <p class="type"><em>${member["Type of Business"] || ''}</em></p>
       ${showPhone ? `<p>📞 ${member.Phone}</p>` : ''}
-      ${showEmail ? `<p>✉️ ${member.Email}</p>` : ''}
+      ${showEmail ? `<p class="email">✉️ <span title="${member.Email}">${member.Email}</span></p>` : ''}
       ${member.Website ? `<p><a href="${member.Website}" target="_blank">🌐 Website</a></p>` : ''}
     `;
 
@@ -66,20 +80,36 @@ function renderDirectory(memberList) {
 }
 
 // =====================================
-// Initial rendering of all members
+// Function to render pagination buttons
 // =====================================
-renderDirectory(members);
+function renderPaginationControls(current) {
+  const pagination = document.getElementById('pagination');
+  pagination.innerHTML = '';
 
-// ==================================
-// Live Search – Real-time Filtering
-// ==================================
+  const totalPages = Math.ceil(filteredMembers.length / MEMBERS_PER_PAGE);
+
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+    btn.className = (i === current) ? 'active' : '';
+    btn.addEventListener('click', () => {
+      currentPage = i;
+      renderDirectoryPage(currentPage);
+    });
+    pagination.appendChild(btn);
+  }
+}
+
+// =====================================
+// Live Search: Filters in real time
+// =====================================
 const searchInput = document.getElementById('memberSearch');
 
 if (searchInput) {
   searchInput.addEventListener('input', function () {
     const searchTerm = this.value.toLowerCase();
 
-    const filtered = members.filter(member => {
+    filteredMembers = members.filter(member => {
       const fullName = (member.Name + ' ' + (member["Last Name"] || '')).toLowerCase();
       const business = (member["Business Name"] || '').toLowerCase();
       const type = (member["Type of Business"] || '').toLowerCase();
@@ -91,8 +121,12 @@ if (searchInput) {
       );
     });
 
-    renderDirectory(filtered);
+    currentPage = 1;
+    renderDirectoryPage(currentPage);
   });
 }
 
-
+// ================================
+// Initial directory render
+// ================================
+renderDirectoryPage(currentPage);
