@@ -56,8 +56,9 @@ nav a:hover {
 /* Main content sections */
 section {
   padding: 2rem 1rem;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 960px; /* Match width of card container row */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -67,18 +68,45 @@ h2 {
 }
 
 /* Member Directory Grid */
+/* Ensure uniform card height and spacing */
 .directory-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Match card width */
   gap: 1.5rem;
+  justify-content: center;
 }
 
+/* Lock card width to avoid expansion and improve alignment */
 .member-card {
   background-color: white;
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 260px; /* ✅ Fixed width for visual consistency */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Handle long email, and/or, business name, and/or business type */
+.member-card p.email,
+.member-card p.business,
+.member-card p.type {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+/* ✂️ Truncate long email or business name with ellipsis */
+.member-card p.email,
+.member-card p.business {
+  overflow: hidden;           /* Cut off overflow */
+  text-overflow: ellipsis;    /* Add ... */
+  white-space: nowrap;        /* Prevent wrapping */
+  max-width: 100%;            /* Ensure full container width */
+  display: block;             /* Ensure block formatting */
 }
 
 .member-photo {
@@ -87,6 +115,14 @@ h2 {
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 0.5rem;
+}
+
+/* Ensure all cards in a row are same height */
+.directory-grid > .member-card {
+  flex: 1 1 280px;     /* Allow wrapping, min width 280px */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #memberSearch {
@@ -98,6 +134,45 @@ h2 {
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
+}
+
+/* mobile friendly */
+@media (min-width: 768px) {
+  .directory-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ======================================= */
+/* 📄 Pagination Controls - Costa Biz Club */
+/* ======================================= */
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.pagination-controls button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  color: #091B74;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.pagination-controls button:hover {
+  background-color: #e6f0ff;
+}
+
+.pagination-controls button.active {
+  background-color: #091B74;
+  color: white;
+  border-color: #091B74;
 }
 
 /* Footer styles */
