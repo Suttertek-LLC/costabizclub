@@ -19,6 +19,7 @@ Xaviee;Sevilla;(+1) 786-781-8150;xsevilla@cargomasterinc.com;CARGO MASTER LOGIST
 Harshad;Dombe;(+1) 786-425-7173;progrow.financials@gmail.com;Progrow Financial Services;;Estate planning, Life Insurance and Retirement Planning;;Yes;Yes
 Jahaira Villalobos;Arnoux;(+1) 305-335-3367;jvsbeautysuite@gmail.com;JV'sBeautySuite;https://Jayvie1010.com;Hair -Skin - wellness;;Yes;Yes
 Valentina;Botero;(+1) 786-587-4167;valenbo@yahoo.com;Etnia accessories;;Fashion jewelry and personalized gifts;;Yes;Yes
+Peter;Espinosa;(+1) 305-987-0040;peterespinosa4doral@gmail.com;CDSRUNCLUB;;Run/Walk Club;Peter.jpg;Yes;Yes
 `.trim();
 
 // ================================
