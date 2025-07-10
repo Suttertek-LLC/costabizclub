@@ -20,6 +20,8 @@ Harshad;Dombe;(+1) 786-425-7173;progrow.financials@gmail.com;Progrow Financial S
 Jahaira Villalobos;Arnoux;(+1) 305-335-3367;jvsbeautysuite@gmail.com;JV'sBeautySuite;https://Jayvie1010.com;Hair -Skin - wellness;;Yes;Yes
 Valentina;Botero;(+1) 786-587-4167;valenbo@yahoo.com;Etnia accessories;;Fashion jewelry and personalized gifts;;Yes;Yes
 Peter;Espinosa;(+1) 305-987-0040;peterespinosa4doral@gmail.com;CDSRUNCLUB;;Run/Walk Club;Peter.jpg;Yes;Yes
+Maggie;Terrazas;(+1) 305-345-9762;maggie1.terrazas@gmail.com;Wellness Promoter;;Health and wellness;;Yes;Yes
+Lina;Matos;(+1) 305-608-6352;linamatosrealtor@gmail.com;Exp Realty;https://www.linamatosrealtor.com;Real Estate / Pre-Construction and Resale;;Yes;Yes
 `.trim();
 
 // ================================
