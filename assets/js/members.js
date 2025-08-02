@@ -22,6 +22,8 @@ Valentina;Botero;(+1) 786-587-4167;valenbo@yahoo.com;Etnia accessories;;Fashion 
 Peter;Espinosa;(+1) 305-987-0040;peterespinosa4doral@gmail.com;CDSRUNCLUB;;Run/Walk Club;Peter.jpg;Yes;Yes
 Maggie;Terrazas;(+1) 305-345-9762;maggie1.terrazas@gmail.com;Wellness Promoter;;Health and wellness;;Yes;Yes
 Lina;Matos;(+1) 305-608-6352;linamatosrealtor@gmail.com;Exp Realty;https://www.linamatosrealtor.com;Real Estate / Pre-Construction and Resale;;Yes;Yes
+Pierre-Yves;Brunet;(+1) 305-873-4235;py@pybrunet.com;PYBrunet;https://pybrunet.com;AI / Finance / Analytics;Pierre.jpg;Yes;Yes 
+Nancy;Brunet;(+1) 786-376-9870;nabrune55@yahoo.com;Napolitano Travel Services;;Accomodations, Cruise, Travel, Accounting;Nancy.jpg;Yes;Yes
 `.trim();
 
 // ================================
@@ -139,3 +141,4 @@ if (searchInput) {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
