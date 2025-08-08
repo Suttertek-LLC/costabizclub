@@ -11,8 +11,8 @@ Arturo;Sutter;(+1) 305-586-7321;asutter@suttertek.com;suttertek LLC;https://sutt
 Dorothy;Griggs;(+1) 305-775-1420;dlgriggs332@gmail.com;Keyes Co.;;Real Estate;Dorothy.jpg;Yes;Yes
 Sergio;Martins;(+1) 786-487-8527;Info@Sergiorealtor.com;Premier Luxe Group LLC;https://www.premierluxegroup.com;Real Estate;Sergio.jpg;Yes;Yes
 Faisal;Quintar;(+1) 786-370-2476;prompt.rehabilitation@gmail.com;PromPT Rehabilitation Group LLC;https://prompt-rehabilitation.com/;Health & Wellness;;Yes;Yes
-Paola;Cedeno;(+1) 954-401-2767;info@greencornerwall.com;Green Corner Wall Co.;https://www.greencornerwall.com;Eco-friendly Wallpaper;;Yes;Yes
-Philip;Sherlock;(+1) 954-478-6392;Philip.Sherlock@avoyanetwork.com;All Aboard Intl. Com;https://trips.allaboardinternational.com;Travel Agency;;Yes;Yes
+Paola;Cedeno;(+1) 954-401-2767;info@greencornerwall.com;Green Corner Wall Co.;https://www.greencornerwall.com;Eco-friendly Wallpaper;Paola.jpg;Yes;Yes
+Philip;Sherlock;(+1) 954-478-6392;Philip.Sherlock@avoyanetwork.com;All Aboard Intl. Com;https://trips.allaboardinternational.com;Travel Agency;Philip.jpg;Yes;Yes
 Andreina;Vethencourt;(+1) 305 676-1959;andreinavethencourt@hotmail.com;Kokai Sushi & Lounge;https://www.kokaisushi.com;Japanese Restaurant;;Yes;Yes 
 Cecilia;Ycaza;(+1) 786-251-5232;cecilia.ycaza@yahoo.com;CJX GLOBAL VACATIONS CORP;https://www.cjxglobalvacations.com;Travel Agency;;Yes;Yes
 Xaviee;Sevilla;(+1) 786-781-8150;xsevilla@cargomasterinc.com;CARGO MASTER LOGISTICS;https://www.cargomasterinc.com;Freight Forwarding;;Yes;Yes 
@@ -20,7 +20,7 @@ Harshad;Dombe;(+1) 786-425-7173;progrow.financials@gmail.com;Progrow Financial S
 Jahaira Villalobos;Arnoux;(+1) 305-335-3367;jvsbeautysuite@gmail.com;JV'sBeautySuite;https://Jayvie1010.com;Hair -Skin - wellness;;Yes;Yes
 Valentina;Botero;(+1) 786-587-4167;valenbo@yahoo.com;Etnia accessories;;Fashion jewelry and personalized gifts;;Yes;Yes
 Peter;Espinosa;(+1) 305-987-0040;peterespinosa4doral@gmail.com;CDSRUNCLUB;;Run/Walk Club;Peter.jpg;Yes;Yes
-Maggie;Terrazas;(+1) 305-345-9762;maggie1.terrazas@gmail.com;Wellness Promoter;;Health and wellness;;Yes;Yes
+Maggie;Terrazas;(+1) 305-345-9762;maggie1.terrazas@gmail.com;Wellness Promoter;;Health and wellness;Maggie.jpg;Yes;Yes
 Lina;Matos;(+1) 305-608-6352;linamatosrealtor@gmail.com;Exp Realty;https://www.linamatosrealtor.com;Real Estate / Pre-Construction and Resale;;Yes;Yes
 Pierre-Yves;Brunet;(+1) 305-873-4235;py@pybrunet.com;PYBrunet;https://pybrunet.com;AI / Finance / Analytics;Pierre.jpg;Yes;Yes 
 Nancy;Brunet;(+1) 786-376-9870;nabrune55@yahoo.com;Napolitano Travel Services;;Accomodations, Cruise, Travel, Accounting;Nancy.jpg;Yes;Yes
@@ -150,5 +150,6 @@ if (searchInput) {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
