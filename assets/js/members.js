@@ -29,10 +29,6 @@ Alejandro;Becerra;(+1) 786-306-8908;alejandro@opencomm.us;OpenComm;https://www.o
 Shirley;Rebollo;(+1) 305-338-0876;shirley@TinyThinkersTutoring.com;Tiny Thinkers Tutoting.com;https://www.TinyThinkersTutoring.com;Tutoring;;Yes;Yes
 Rosemary;Ravinal;(+1) 305-776-8589;rosemary@rosemaryravinal.com;RMR Communications Consulting LLC;https://rosemaryravinal.com;Bilingual Public speaking coaching, speaker and professional;Rosemary.png;Yes;Yes
 
-
-
-
-
 `.trim();
 
 // ================================
@@ -150,6 +146,7 @@ if (searchInput) {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
