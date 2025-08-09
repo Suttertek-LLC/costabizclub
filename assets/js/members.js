@@ -28,6 +28,7 @@ Pierre;Cruz;(+1) 786-854-1096;bistrogrilledoral@gmail.com;Costa Bistro Grille & 
 Alejandro;Becerra;(+1) 786-306-8908;alejandro@opencomm.us;OpenComm;https://www.opencomm.us;Marketing Video & Photo production;;Yes;Yes
 Shirley;Rebollo;(+1) 305-338-0876;shirley@TinyThinkersTutoring.com;Tiny Thinkers Tutoting.com;https://www.TinyThinkersTutoring.com;Tutoring;;Yes;Yes
 Rosemary;Ravinal;(+1) 305-776-8589;rosemary@rosemaryravinal.com;RMR Communications Consulting LLC;https://rosemaryravinal.com;Bilingual Public speaking coaching, speaker and professional;Rosemary.png;Yes;Yes
+Karime;Hernandez;(+1) 786-325-2678;karimehernandezhealth@gmail.com;K Hernandez protection network;https://www.khernandez.net;Health and life insurance agent;;Yes;Yes 
 
 `.trim();
 
@@ -146,6 +147,7 @@ if (searchInput) {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
