@@ -200,3 +200,56 @@ footer .suttertek .sutter {
 footer .suttertek .tek {
   color: #E9592D;
 }
+
+/*-----------------------------------------
+  Email row — stable, selectable, and tidy
+------------------------------------------*/
+.member-card p.email{
+  user-select: text;
+  margin-top: .35rem;
+  display: flex;               /* keep icon + text on one line */
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  flex-wrap: nowrap;
+}
+
+/* Truncate by default (but never collapse to just “...”) */
+.member-card .email-text{
+  display: inline-block;
+  min-width: 12ch;             /* ensures some visible characters */
+  max-width: 22ch;             /* tweak to taste */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+
+/* Show full email on hover (desktop) or when JS adds .expanded (touch) */
+.member-card p.email:hover .email-text,
+.member-card p.email.expanded .email-text{
+  white-space: normal;
+  max-width: none;
+}
+
+/* Copy button */
+.copy-email{
+  margin-left: .5rem;
+  padding: .1rem .45rem;
+  font-size: .85rem;
+  line-height: 1.6;
+  border: 1px solid #cfd8e3;
+  border-radius: 6px;
+  background: #fff;
+  color: #0b3d91;
+  cursor: pointer;
+}
+.copy-email:hover{ background: #eef5ff; }
+
+/* Slightly tighter on very small screens */
+@media (max-width: 480px){
+  .member-card .email-text{
+    min-width: 10ch;
+    max-width: 18ch;
+  }
+}
