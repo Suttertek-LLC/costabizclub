@@ -32,7 +32,7 @@ Karime;Hernandez;(+1) 786-325-2678;karimehernandezhealth@gmail.com;K Hernandez p
 Cristina;Fernandez;(+1) 786-241-6055;cristina@lavillainteriordesign.com;La Villa Interior Design LLC;https://lavillainteriordesign.com;Architecture & Interior design;Cristina.jpg;Yes;Yes
 Cristina;Fernandez;(+1) 786-725-6870;cfjorge@hotmail.com;Costa Music & Piano Lessons;;Music & Piano Lessons;;Yes;Yes
 Francisco J;Kayser PA;(+1) 786-316-6526;franciscokayser@keyes.com;The Keyes Company;https://franciscokayser.keyes.com;Residential & Commercial Realtor;Francisco.jpg;Yes;Yes
-
+Patrick;Laine;(+1) 850-866-6686;patrick@dreamigos.com;Dreamigos;https://dreamigos.com;Self discovery & dream interpretation;;Yes;Yes
 
 `.trim();
 
@@ -282,6 +282,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
