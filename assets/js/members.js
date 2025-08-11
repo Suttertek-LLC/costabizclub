@@ -36,6 +36,7 @@ Patrick;Laine;(+1) 850-866-6686;patrick@dreamigos.com;Dreamigos;https://dreamigo
 Kevin;Arnoux;(+1) 786 299 0326;karnoux@floridacardservices.com;Florida Card Services;https://www.floridacardservices.com;Simplified, Modern Systems;;Yes;Yes 
 Giorgio;Mattoli;(+1) 305 988 8586;giorgio.mattoli@prowinch.com;Prowinch;https://www.prowinch.com/;Industrial lifting equipment, Winche's, VFD, Wireless system;Giorgio.png;Yes;Yes
 Kurk;Antón;(+1) 305 298 1974;Kurk.anton@taxfyle.com;Taxfyle;https://www.taxfyle.com;Accounting and Taxes;;Yes;Yes
+Jenny;Rubio;(+1) 419-788-0097;jennylrubio@gmail.com;The Blue House Bread Club;;Sourdough bread delivered to you;;Yes;Yes 
 
 
 `.trim();
@@ -286,6 +287,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
