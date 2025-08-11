@@ -17,7 +17,7 @@ Andreina;Vethencourt;(+1) 305 676-1959;andreinavethencourt@hotmail.com;Kokai Sus
 Cecilia;Ycaza;(+1) 786-251-5232;cecilia.ycaza@yahoo.com;CJX GLOBAL VACATIONS CORP;https://www.cjxglobalvacations.com;Travel Agency;;Yes;Yes
 Xavier;Sevilla;(+1) 786-781-8150;xsevilla@cargomasterinc.com;CARGO MASTER LOGISTICS;https://www.cargomasterinc.com;Freight Forwarding;;Yes;Yes
 Harshad;Dombe;(+1) 786-425-7173;progrow.financials@gmail.com;Progrow Financial Services;;Estate planning, Life Insurance and Retirement Planning;;Yes;Yes
-Jahaira Villalobos;Arnoux;(+1) 305-335-3367;jvsbeautysuite@gmail.com;JV'sBeautySuite;https://Jayvie1010.com;Hair -Skin - wellness;;Yes;Yes
+Jahaira Villalobos;Arnoux;(+1) 305-335-3367;jvsbeautysuite@gmail.com;JV'sBeautySuite;https://Jayvie1010.com;Hair -Skin - wellness;Jahaira.jpg;Yes;Yes
 Valentina;Botero;(+1) 786-587-4167;valenbo@yahoo.com;Etnia accessories;;		Fashion jewelry and personalized gifts;;Yes;Yes
 Peter;Espinosa;(+1) 305-987-0040;peterespinosa4doral@gmail.com;CDSRUNCLUB;;Run/Walk Club;Peter.jpg;Yes;Yes
 Maggie;Terrazas;(+1) 305-345-9762;maggie1.terrazas@gmail.com;Wellness Promoter;;Health and wellness;Maggie.jpg;Yes;Yes
@@ -286,6 +286,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
