@@ -37,7 +37,7 @@ Kevin;Arnoux;(+1) 786 299 0326;karnoux@floridacardservices.com;Florida Card Serv
 Giorgio;Mattoli;(+1) 305 988 8586;giorgio.mattoli@prowinch.com;Prowinch;https://www.prowinch.com/;Industrial lifting equipment, Winche's, VFD, Wireless system;Giorgio.png;Yes;Yes
 Kurk;Antón;(+1) 305 298 1974;Kurk.anton@taxfyle.com;Taxfyle;https://www.taxfyle.com;Accounting and Taxes;;Yes;Yes
 Jenny;Rubio;(+1) 419-788-0097;jennylrubio@gmail.com;The Blue House Bread Club;;Sourdough bread delivered to you;;Yes;Yes 
-Natasha;Salmon;(+1) 786-484-4889;salmoncogno@gmail.com;Yoga with Natasha;;Yoga & Meditation Teacher;;Yes;Yes
+Natasha;Salmon;(+1) 786-484-4889;salmoncogno@gmail.com;Yoga with Natasha;;Yoga & Meditation Teacher;Natasha.jpg;Yes;Yes
 
 
 
@@ -289,6 +289,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
