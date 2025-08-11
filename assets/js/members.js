@@ -33,6 +33,10 @@ Cristina;Fernandez;(+1) 786-241-6055;cristina@lavillainteriordesign.com;La Villa
 Cristina;Fernandez;(+1) 786-725-6870;cfjorge@hotmail.com;Costa Music & Piano Lessons;;Music & Piano Lessons;;Yes;Yes
 Francisco J;Kayser PA;(+1) 786-316-6526;franciscokayser@keyes.com;The Keyes Company;https://franciscokayser.keyes.com;Residential & Commercial Realtor;Francisco.jpg;Yes;Yes
 Patrick;Laine;(+1) 850-866-6686;patrick@dreamigos.com;Dreamigos;https://dreamigos.com;Self discovery & dream interpretation;;Yes;Yes
+Kevin;Arnoux;(+1) 786 299 0326;karnoux@floridacardservices.com;Florida Card Services;https://www.floridacardservices.com;Simplified, Modern Systems;;Yes;Yes 
+Giorgio;Mattoli;(+1) 305 988 8586;giorgio.mattoli@prowinch.com;Prowinch;https://www.prowinch.com/;Industrial lifting equipment, Winche's, VFD, Wireless system;Giorgio.png;Yes;Yes
+Kurk;Antón;(+1) 305 298 1974;Kurk.anton@taxfyle.com;Taxfyle;https://www.taxfyle.com;Accounting and Taxes;;Yes;Yes
+
 
 `.trim();
 
@@ -282,6 +286,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
