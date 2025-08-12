@@ -42,6 +42,8 @@ Fabrizio;Colombi;(+1) 305-934-5840;fcolombi@decographic.net;Visual Angle Media;h
 Fabrizio;Colombi;(+1) 305-934-5840;fcolombi@decographic.net;Decographic, Inc.;https://www.decographic.net;Enterprise Digital Marketing Services;;Yes;Yes
 Paloma;Fernandini;(+1) 305-310-0208;info@donutshare.com;DoNUTShare;https://www.donutshare.com;Candied Nuts & More;;Yes;Yes
 Lucia;Bartolone Buendia;(+1) 786-367-6685;luciarath@aol.de;CRUMBS by Buendia;;Micro Bakery - Sourdough Bread, Pastries, Cakes and more;;Yes;Yes
+Miguel;Zulueta Sr;(+1) 786-718-0665;miguelazulueta@gmail.com;Summit Financial and Incestment Advisors (Part of the Principal Group);;		Financial and Incestment Advisor;Miguel.jpg;Yes;Yes
+
 
 
 `.trim();
@@ -292,6 +294,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
