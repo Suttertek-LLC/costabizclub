@@ -38,7 +38,10 @@ Giorgio;Mattoli;(+1) 305 988 8586;giorgio.mattoli@prowinch.com;Prowinch;https://
 Kurk;Antón;(+1) 305 298 1974;Kurk.anton@taxfyle.com;Taxfyle;https://www.taxfyle.com;Accounting and Taxes;;Yes;Yes
 Jenny;Rubio;(+1) 419-788-0097;jennylrubio@gmail.com;The Blue House Bread Club;;Sourdough bread delivered to you;;Yes;Yes 
 Natasha;Salmon;(+1) 786-484-4889;salmoncogno@gmail.com;Yoga with Natasha;;Yoga & Meditation Teacher;Natasha.jpg;Yes;Yes
-
+Fabrizio;Colombi;(+1) 305-934-5840;fcolombi@decographic.net;Visual Angle Media;https://www.visualanglemedia.com;Corporate Video Production Services;;Yes;Yes
+Fabrizio;Colombi;(+1) 305-934-5840;fcolombi@decographic.net;Decographic, Inc.;https://www.decographic.net;Enterprise Digital Marketing Services;;Yes;Yes
+Paloma;Fernandini;(+1) 305-310-0208;info@donutshare.com;DoNUTShare;https://www.donutshare.com;Candied Nuts & More;;Yes;Yes
+Lucia;Bartolone Buendia;(+1) 786-367-6685;luciarath@aol.de;CRUMBS by Buendia;;Micro Bakery - Sourdough Bread, Pastries, Cakes and more;;Yes;Yes
 
 
 `.trim();
@@ -289,6 +292,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
