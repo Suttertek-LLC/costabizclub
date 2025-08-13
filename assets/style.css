@@ -253,3 +253,108 @@ footer .suttertek .tek {
     max-width: 18ch;
   }
 }
+
+/* ===========================
+   Events section
+   =========================== */
+
+#events {
+  padding: 2rem 1rem;
+  max-width: 800px;       /* matches your section width */
+  margin: 0 auto;
+}
+
+.event-recurring .event-subtitle {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0b3d91;
+}
+
+#events h2 {
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.event-recurring {
+  background: #f5faff;
+  border: 1px solid #e2ecf7;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #003a63;
+}
+
+.events-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+/* Event card */
+.event-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+  overflow: hidden; /* rounds the image top corners */
+  border: 1px solid #eef2f7;
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.event-body {
+  padding: 1rem 1.1rem 1.2rem;
+  text-align: left;
+  color: #003a63;
+}
+
+.event-body h3 {
+  margin: 0 0 .25rem 0;
+  font-size: 1.25rem;
+  color: #0b3d91;
+}
+
+.event-body .when,
+.event-body .where,
+.event-body .host {
+  margin: .15rem 0;
+  line-height: 1.4;
+}
+
+/* Optional buttons (only if you add them in HTML) 
+.event-body .btn {
+  display: inline-block;
+  margin-top: .6rem;
+  margin-right: .5rem;
+  padding: .45rem .75rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  background: #091B74;
+  color: #fff;
+  border: 1px solid #091B74;
+}
+.event-body .btn:hover { background: #0f2499; }
+.event-body .btn.btn-outline {
+  background: #fff;
+  color: #091B74;
+  border-color: #cfd8e3;
+}
+.event-body .btn.btn-outline:hover {
+  background: #eef5ff;
+}
+
+/* Two-up on medium screens, three-up if you ever widen this section */
+
+@media (min-width: 680px) {
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
