@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Costa Biz Club</title>
-    
-<!-- Favicon -->
+
+    <!-- Favicon -->
     <link rel="icon" href="assets/img/costa-biz-logo.png" type="image/png" />
-    
+
     <!-- Link to external CSS and Google Font -->
     <link rel="stylesheet" href="assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,7 +34,7 @@
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#directory">Members</a></li>
-        <li><a href="#meetup">Next Meetup</a></li>
+        <li><a href="#events">Events</a></li>
         <li><a href="#social">Photos</a></li>
       </ul>
     </nav>
@@ -47,7 +47,7 @@
         coming together to support one another.
       </p>
       <p>
-        We share tips, resources, referrals, and encouragement. Whether you’re
+        We share tips, resources, referrals, and encouragement. Whether you're
         just starting out or have been in business for years, this is a space to
         connect, collaborate, and grow together.
       </p>
@@ -55,7 +55,7 @@
         We meet monthly at The Bistro on the second Friday of every month at
         8:30 AM.
       </p>
-      <p>Let’s keep the vibe positive, respectful, and helpful!</p>
+      <p>Let's keep the vibe positive, respectful, and helpful!</p>
     </section>
 
     <!-- Directory section -->
@@ -76,12 +76,39 @@
       <div id="pagination" class="pagination-controls"></div>
     </section>
 
-    <!-- Meetup info section -->
-    <section id="meetup">
-      <h2>Next Meetup</h2>
-      <p><strong>Date:</strong> Second Friday of every month</p>
-      <p><strong>Time:</strong> 8:30 AM</p>
-      <p><strong>Location:</strong> The Bistro at Costa del Sol</p>
+    <!-------------------->
+    <!-- Events section -->
+    <!-------------------->
+    <section id="events">
+      <h2>Events</h2>
+
+      <!-- Recurring meetup info (kept from before) -->
+      <div class="event-recurring">
+        <h3 class="event-subtitle">Periodic Club Meetup</h3>
+        <p><strong>Date:</strong> Second Friday of every month</p>
+        <p><strong>Time:</strong> 8:30 AM</p>
+        <p><strong>Location:</strong> The Bistro at Costa del Sol</p>
+      </div>
+
+      <!-- One-off / promoted events -->
+      <div class="events-grid">
+        <article class="event-card">
+          <img
+            src="assets/img/events/happy-hour-2025-08-22.png"
+            alt="Happy Hour at Bistro Grill — Friday, Aug 22, 6:00–7:00 PM (Costa Biz Club)"
+            loading="lazy"
+          />
+          <div class="event-body">
+            <h3>Happy Hour</h3>
+            <p class="when">Fri, Aug 22, 2025 • 6:00 to 7:00 PM</p>
+            <p class="where">Bistro Grill</p>
+            <p class="host">Hosted by Costa Biz Club</p>
+            <!-- Optional buttons (you can remove these if you like) -->
+            <!-- <a class="btn" href="#" target="_blank" rel="noopener">Add to Calendar</a> -->
+            <!-- <a class="btn btn-outline" href="#" target="_blank" rel="noopener">More details</a> -->
+          </div>
+        </article>
+      </div>
     </section>
 
     <!-- Testimonials / Social section -->
@@ -101,3 +128,4 @@
     </footer>
   </body>
 </html>
+
