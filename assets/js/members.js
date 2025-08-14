@@ -44,7 +44,7 @@ Paloma;Fernandini;(+1) 305-310-0208;info@donutshare.com;DoNUTShare;https://www.d
 Lucia;Bartolone Buendia;(+1) 786-367-6685;luciarath@aol.de;CRUMBS by Buendia;;Micro Bakery - Sourdough Bread, Pastries, Cakes and more;;Yes;Yes
 Miguel;Zulueta Sr;(+1) 786-718-0665;miguelazulueta@gmail.com;Summit Financial and Incestment Advisors (Part of the Principal Group);;		Financial and Incestment Advisor;Miguel.jpg;Yes;Yes
 Barbie;Rios;(+1) 786-389-3058;your1petsbestfriend@gmail.com;Your Pets Bestfriend;;Pets sitter;Barbie.jpg;Yes;Yes
-
+Nohra;Levy;(+1) 305-336-8790;NLevy17@gmail.com;Nohra Levy Real Estate/DOT Funding;https://nohralevyrealestate.com;Residential Mortgage Loans & Realtor;Nohra.jpg;Yes;Yes
 
 
 `.trim();
@@ -295,6 +295,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
