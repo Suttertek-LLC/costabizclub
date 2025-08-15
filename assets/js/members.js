@@ -45,6 +45,7 @@ Lucia;Bartolone Buendia;(+1) 786-367-6685;luciarath@aol.de;CRUMBS by Buendia;;Mi
 Miguel;Zulueta Sr;(+1) 786-718-0665;miguelazulueta@gmail.com;Summit Financial and Investment Advisors (Part of the Principal Group);;Financial and Investment Advisor;Miguel.jpg;Yes;Yes
 Barbie;Rios;(+1) 786-389-3058;your1petsbestfriend@gmail.com;Your Pets Bestfriend;;Pets sitter;Barbie.jpg;Yes;Yes
 Nohra;Levy;(+1) 305-336-8790;NLevy17@gmail.com;Nohra Levy Real Estate/DOT Funding;https://nohralevyrealestate.com;Residential Mortgage Loans & Realtor;Nohra.jpg;Yes;Yes
+Jeff;Policard;(+1) 786-525-7975;jeff@vupromo.com;Vu Promo;https://vupromo.com;Promotional Items & Experiential Marketing;Jeff.jpg;Yes;Yes
 
 
 `.trim();
@@ -295,6 +296,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
