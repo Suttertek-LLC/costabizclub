@@ -46,6 +46,10 @@ Miguel;Zulueta Sr;(+1) 786-718-0665;miguelazulueta@gmail.com;Summit Financial an
 Barbie;Rios;(+1) 786-389-3058;your1petsbestfriend@gmail.com;Your Pets Bestfriend;;Pets sitter;Barbie.jpg;Yes;Yes
 Nohra;Levy;(+1) 305-336-8790;NLevy17@gmail.com;Nohra Levy Real Estate/DOT Funding;https://nohralevyrealestate.com;Residential Mortgage Loans & Realtor;Nohra.jpg;Yes;Yes
 Jeff;Policard;(+1) 786-525-7975;jeff@vupromo.com;Vu Promo;https://vupromo.com;Promotional Items & Experiential Marketing;Jeff.jpg;Yes;Yes
+Carmen;Spangaro;(+1) 305-586-6587;carmenspangaro@me.com;MIArgentina;;;;Yes;Yes
+Doris;Dip;(+1) 305-898-7321;info@dipintonutrition.com;Dip Into Nutrition LLC;https://dipintonutrition.com;Nutrition Consulting;;Yes;Yes
+Lourdes;Del Rio;(+1) 786-449-0757;PodcasrEnPositivo@gmail.com;MediaLDR LLC;https://lourdesdelrio.com;Podcast;;Yes;Yes
+
 
 
 `.trim();
@@ -296,6 +300,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
