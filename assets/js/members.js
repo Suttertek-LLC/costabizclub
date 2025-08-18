@@ -50,6 +50,7 @@ Carmen;Spangaro;(+1) 305-586-6587;carmenspangaro@me.com;MIArgentina;;;;Yes;Yes
 Doris;Dip;(+1) 305-898-7321;info@dipintonutrition.com;Dip Into Nutrition LLC;https://dipintonutrition.com;Nutrition Consulting;;Yes;Yes
 Lourdes;Del Rio;(+1) 786-449-0757;PodcasrEnPositivo@gmail.com;MediaLDR LLC;https://lourdesdelrio.com;Podcast;;Yes;Yes
 Anamaris;Montanez;(+1) 305-903-8323;Themaxicrafts@gmail.com;Maxi Crafts;https://linktr.ee/iamanamaris?;Sublimation, DTF, Rhinestone crafts on pen and tumblers, etc;Anamaris.png;Yes;Yes
+Paulo;Castro;(+1) 949-310-2796;pcastro7@me.com;Renzo Gracie Doral;https://renzograciedoral.com;Jiu JItsu - Martial arts and Self Defense;;Yes;Yes
 
 
 `.trim();
@@ -300,6 +301,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
