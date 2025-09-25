@@ -21,7 +21,7 @@ Jahaira Villalobos;Arnoux;(+1) 305-335-3367;jvsbeautysuite@gmail.com;JV'sBeautyS
 Valentina;Botero;(+1) 786-587-4167;valenbo@yahoo.com;Etnia accessories;;		Fashion jewelry and personalized gifts;;Yes;Yes
 Peter;Espinosa;(+1) 305-987-0040;peterespinosa4doral@gmail.com;CDSRUNCLUB;;Run/Walk Club;Peter.jpg;Yes;Yes
 Maggie;Terrazas;(+1) 305-345-9762;maggie1.terrazas@gmail.com;Wellness Promoter;;Health and wellness;Maggie.jpg;Yes;Yes
-Lina;Matos;(+1) 305-608-6352;linamatosrealtor@gmail.com;Exp Realty;https://www.linamatosrealtor.com;Real Estate / Pre-Construction and Resale;;Yes;Yes
+Lina;Matos;(+1) 305-608-6352;linamatosrealtor@gmail.com;Exp Realty;https://www.linamatosrealtor.com;Real Estate / Pre-Construction and Resale;Lina.jpg;Yes;Yes
 Pierre-Yves;Brunet;(+1) 305-873-4235;py@pybrunet.com;PYBrunet;https://pybrunet.com;AI / Finance / Analytics;Pierre.jpg;Yes;Yes 
 Nancy;Brunet;(+1) 786-376-9870;nabrune55@yahoo.com;Napolitano Travel Services;;Accomodations, Cruise, Travel, Accounting;Nancy.jpg;Yes;Yes
 Pierre;Cruz;(+1) 786-854-1096;bistrogrilledoral@gmail.com;Costa Bistro Grille & Bar;;Restaurant, bar, events & catering;;Yes;Yes
@@ -301,6 +301,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
