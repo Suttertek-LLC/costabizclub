@@ -36,6 +36,28 @@
         <li><a href="#directory">Members</a></li>
         <li><a href="#events">Events</a></li>
         <li><a href="#social">Photos</a></li>
+
+        <!-- Dropdown menu for multiple docs -->
+        <li class="dropdown">
+          <a href="#">Documents ▾</a>
+          <ul class="dropdown-content">
+            <li>
+              <a href="assets/docs/CDS Parade Waiver.pdf" target="_blank"
+                >Parade Waiver</a
+              >
+            </li>
+            <!-- <li>
+              <a href="assets/docs/Club Guidelines.pdf" target="_blank"
+                >Club Guidelines</a
+              >
+            </li>
+            <li>
+              <a href="assets/docs/Event Form.pdf" target="_blank"
+                >Event Form</a
+              >
+            </li> -->
+          </ul>
+        </li>
       </ul>
     </nav>
 
@@ -76,13 +98,13 @@
       <div id="pagination" class="pagination-controls"></div>
     </section>
 
-    <!-------------------->
-    <!-- Events section -->
-    <!-------------------->
+    <!---------------------->
+    <!--- Events section --->
+    <!---------------------->
     <section id="events">
       <h2>Events</h2>
 
-      <!-- Recurring meetup info (kept from before) -->
+      <!-- Recurring Meetup -->
       <div class="event-recurring">
         <h3 class="event-subtitle">Periodic Club Meetup</h3>
         <p><strong>Date:</strong> Second Friday of every month</p>
@@ -90,12 +112,33 @@
         <p><strong>Location:</strong> The Bistro at Costa del Sol</p>
       </div>
 
-      <!-- One-off / promoted events -->
+      <!-- Upcoming Events -->
+      <h3 class="event-subtitle" style="margin-top: 2rem">Upcoming Events</h3>
       <div class="events-grid">
+        <!-- Holiday Parade - UPCOMING -->
+        <article class="event-card">
+          <img
+            src="assets/img/events/CDSparadeFlyer.jpg"
+            alt="Holiday Lights Parade — Friday, Dec 20, 2025, Costa del Sol"
+            loading="lazy"
+          />
+          <div class="event-body">
+            <h3>Holiday Lights on Wheels Parade</h3>
+            <p class="when">Fri, Dec 20, 2025 • 4:30 PM</p>
+            <p class="where">Costa del Sol</p>
+            <p class="host">Hosted by Costa Biz Club</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- Past Events -->
+      <h3 class="event-subtitle" style="margin-top: 2rem">Past Events</h3>
+      <div class="events-grid">
+        <!-- Happy Hour - PAST -->
         <article class="event-card">
           <img
             src="assets/img/events/happy-hour-2025-08-22.png"
-            alt="Happy Hour at Bistro Grill — Friday, Aug 22, 6:00–7:00 PM (Costa Biz Club)"
+            alt="Happy Hour at Bistro Grill — Friday, Aug 22, 2025"
             loading="lazy"
           />
           <div class="event-body">
@@ -103,14 +146,15 @@
             <p class="when">Fri, Aug 22, 2025 • 6:00 to 7:00 PM</p>
             <p class="where">Bistro Grill</p>
             <p class="host">Hosted by Costa Biz Club</p>
-            <!-- Optional buttons (you can remove these if you like) -->
-            <!-- <a class="btn" href="#" target="_blank" rel="noopener">Add to Calendar</a> -->
-            <!-- <a class="btn btn-outline" href="#" target="_blank" rel="noopener">More details</a> -->
           </div>
         </article>
       </div>
     </section>
 
+    <!-- Testimonials / Social section -->
+    <!-- <section id="social">
+    <<h2>Photos & Testimonials</h2>
+    <p>Event photos and feedback from members will be shared here.</p> -->
     <!-- ============================== -->
     <!-- 📸  Photos & Testimonials     -->
     <!-- ============================== -->
@@ -127,7 +171,7 @@
         </div>
       </div>
     </section>
-    
+
     <!-- Footer with copyright and branding -->
     <footer>
       <p>
@@ -139,5 +183,6 @@
     </footer>
   </body>
 </html>
+
 
 
