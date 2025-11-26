@@ -223,7 +223,52 @@ h2 {
   border-color: #091B74;
 }
 
+/* =========================== */
+/* Join the Club - CTA section */
+/* =========================== */
+
+.join-section {
+  padding: 2rem 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left; /* match About & Directory alignment */
+}
+
+.join-section h2.section-title {
+  font-size: 1.6rem;                 /* same as other h2 */
+  border-bottom: 2px solid #007acc;  /* match site style */
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #003a63;
+}
+
+.join-section p {
+  font-size: 1rem;
+  color: #003a63;
+  max-width: 650px;
+  margin: 0 0 1.25rem 0;
+  line-height: 1.5;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #091B74; /* Suttertek Blue */
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 0.5rem;
+}
+
+.cta-button:hover {
+  background-color: #E9592D; /* Suttertek Orange */
+}
+
+/*****************/
 /* Footer styles */
+/*****************/
 footer {
   background-color: #e0f0ff;
   text-align: center;
@@ -409,6 +454,7 @@ footer .suttertek .tek {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
