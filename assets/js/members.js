@@ -51,7 +51,7 @@ Doris;Dip;(+1) 305-898-7321;info@dipintonutrition.com;Dip Into Nutrition LLC;htt
 Lourdes;Del Rio;(+1) 786-449-0757;PodcasrEnPositivo@gmail.com;MediaLDR LLC;https://lourdesdelrio.com;Podcast;;Yes;Yes
 Anamaris;Montanez;(+1) 305-903-8323;Themaxicrafts@gmail.com;Maxi Crafts;https://linktr.ee/iamanamaris?;Sublimation, DTF, Rhinestone crafts on pen and tumblers, etc;Anamaris.png;Yes;Yes
 Paulo;Castro;(+1) 949-310-2796;pcastro7@me.com;Renzo Gracie Doral;https://renzograciedoral.com;Jiu JItsu - Martial arts and Self Defense;;Yes;Yes
-Freddy;Martinez;(+1) 305-213-3106;freddydavidmartinez@hotmail.com;Aro Property investment LLC;;Construction and remodeling;;Yes;Yes
+Freddy;Martinez;(+1) 305-213-3106;freddydavidmartinez@hotmail.com;Aro Property investment LLC;;Construction and remodeling;Freddy.jpg;Yes;Yes
 Roberto;Villani;(+1) 305-525-4850;Robertovillani@hotmail.com;Florida Select Realty;;Commercial & Residential Real Estate;;Yes;Yes
 Paola;Donatiello;(+1) 786-458-9612;paola@mayoraaudioproductions.com;Mayora Audio Productions;www.mayoraaudioproductions.com;Sales & rent Audio Visual Equipment - Conference, Private party - Dj services;;Yes;Yes 
 Carla;Pella;(+1) 305-915-2855;Cmonicap08@gmail.com;Mighty;;Amazon Bussiness Prime;;Yes;Yes 
@@ -304,6 +304,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
