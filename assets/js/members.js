@@ -7,8 +7,8 @@
 // =============================================
 const csvData = `
 Name;Last Name;Phone;Email;Business Name;Website;Type of Business;Picture Filename;Show Phone?;Show Email?
-Arturo;Sutter;(+1) 305-586-7321;asutter@suttertek.com;suttertek LLC;https://suttertek.com;Technology;Art-pic001.png;Yes;Yes
 Dorothy;Griggs;(+1) 305-775-1420;dlgriggs332@gmail.com;Keyes Co.;;Real Estate;Dorothy.jpg;Yes;Yes
+Arturo;Sutter;(+1) 305-586-7321;asutter@suttertek.com;suttertek LLC;https://suttertek.com;Technology;Art-pic001.png;Yes;Yes
 Sergio;Martins;(+1) 786-487-8527;Info@Sergiorealtor.com;Premier Luxe Group LLC;https://www.premierluxegroup.com;Real Estate;Sergio.jpg;Yes;Yes
 Faisal;Quintar;(+1) 786-370-2476;prompt.rehabilitation@gmail.com;PromPT Rehabilitation Group LLC;https://prompt-rehabilitation.com/;Health & Wellness;Faisal.jpg;Yes;Yes
 Paola;Cedeno;(+1) 954-401-2767;info@greencornerwall.com;Green Corner Wall Co.;https://www.greencornerwall.com;Eco-friendly Wallpaper;Paola.jpg;Yes;Yes
@@ -51,7 +51,10 @@ Doris;Dip;(+1) 305-898-7321;info@dipintonutrition.com;Dip Into Nutrition LLC;htt
 Lourdes;Del Rio;(+1) 786-449-0757;PodcasrEnPositivo@gmail.com;MediaLDR LLC;https://lourdesdelrio.com;Podcast;;Yes;Yes
 Anamaris;Montanez;(+1) 305-903-8323;Themaxicrafts@gmail.com;Maxi Crafts;https://linktr.ee/iamanamaris?;Sublimation, DTF, Rhinestone crafts on pen and tumblers, etc;Anamaris.png;Yes;Yes
 Paulo;Castro;(+1) 949-310-2796;pcastro7@me.com;Renzo Gracie Doral;https://renzograciedoral.com;Jiu JItsu - Martial arts and Self Defense;;Yes;Yes
-
+Freddy;Martinez;(+1) 305-213-3106;freddydavidmartinez@hotmail.com;Aro Property investment LLC;;Construction and remodeling;;Yes;Yes
+Roberto;Villani;(+1) 305-525-4850;Robertovillani@hotmail.com;Florida Select Realty;;Commercial & Residential Real Estate;;Yes;Yes
+Paola;Donatiello;(+1) 786-458-9612;paola@mayoraaudioproductions.com;Mayora Audio Productions;www.mayoraaudioproductions.com;Sales & rent Audio Visual Equipment - Conference, Private party - Dj services;;Yes;Yes 
+Carla;Pella;(+1) 305-915-2855;Cmonicap08@gmail.com;Mighty;;Amazon Bussiness Prime;;Yes;Yes 
 
 `.trim();
 
@@ -301,6 +304,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
