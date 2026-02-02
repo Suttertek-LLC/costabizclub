@@ -55,6 +55,7 @@ Freddy;Martinez;(+1) 305-213-3106;freddydavidmartinez@hotmail.com;Aro Property i
 Roberto;Villani;(+1) 305-525-4850;Robertovillani@hotmail.com;Florida Select Realty;;Commercial & Residential Real Estate;;Yes;Yes
 Paola;Donatiello;(+1) 786-458-9612;paola@mayoraaudioproductions.com;Mayora Audio Productions;www.mayoraaudioproductions.com;Sales & rent Audio Visual Equipment - Conference, Private party - Dj services;;Yes;Yes 
 Carla;Pella;(+1) 305-915-2855;Cmonicap08@gmail.com;Mighty;;Amazon Bussiness Prime;;Yes;Yes 
+Kamila;Bermudez;(+1) 786-612-9105;Move.it.express2001@gmail.com;Move it express;;Residential moving services and commercial cargo transport;Kamila.jpg;Yes;Yes
 
 `.trim();
 
@@ -304,6 +305,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
