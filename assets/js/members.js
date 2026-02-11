@@ -56,6 +56,8 @@ Roberto;Villani;(+1) 305-525-4850;Robertovillani@hotmail.com;Florida Select Real
 Paola;Donatiello;(+1) 786-458-9612;paola@mayoraaudioproductions.com;Mayora Audio Productions;www.mayoraaudioproductions.com;Sales & rent Audio Visual Equipment - Conference, Private party - Dj services;;Yes;Yes 
 Carla;Pella;(+1) 305-915-2855;Cmonicap08@gmail.com;Mighty;;Amazon Bussiness Prime;;Yes;Yes 
 Kamila;Bermudez;(+1) 786-612-9105;Move.it.express2001@gmail.com;Move it express;;Residential moving services and commercial cargo transport;Kamila.jpg;Yes;Yes
+Ashley;Nieto;(+1) 305-343-7220;Miamimedeval@aol.com;Miami Medical Evaluations;Www.miamimedeval.com;Medical center;Ashley.jpeg;Yes;Yes
+Mireya;Pereira;(+1)	786-448-1359;info@mireyapereira.com;Alimenta tu Alma;www.alimentatualma.com;Wellness;;No;Yes
 
 `.trim();
 
@@ -305,6 +307,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
