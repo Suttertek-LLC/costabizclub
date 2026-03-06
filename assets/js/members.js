@@ -59,7 +59,8 @@ Kamila;Bermudez;(+1) 786-612-9105;Move.it.express2001@gmail.com;Move it express;
 Ashley;Nieto;(+1) 305-343-7220;Miamimedeval@aol.com;Miami Medical Evaluations;https://www.miamimedeval.com;Medical center;Ashley.jpeg;Yes;Yes
 Mireya;Pereira;(+1)	786-448-1359;info@mireyapereira.com;Alimenta tu Alma;https://www.alimentatualma.com;Wellness;;No;Yes
 Daysi;Salazar;(+1) 985-414-4914;daysi@mymicroburst.com;MICROBURST;https://www.mymicroburst.com;Boutique Marketing Agency;Daysi.jpeg;Yes;Yes
-Geoffrey;Cruceta;(+1)	786-553-8627;geoffrey.cruceta@citynational.com;City national;;Business banking, loans;Geoffrey.jpg;Yes;Yes 
+Geoffrey;Cruceta;(+1)	786-553-8627;geoffrey.cruceta@citynational.com;City national;;Business banking, loans;Geoffrey.jpg;Yes;Yes
+Cesar;Reyes;(+1) 305-431-4887;creybal@yahoo.com;Lopez & Partners LLC;;Accounting, Tax & Business Consulting;Cesar.jpg;Yes;Yes
 
 `.trim();
 
@@ -309,6 +310,7 @@ document.addEventListener('click', (e) => {
 // Initial directory render
 // ================================
 renderDirectoryPage(currentPage);
+
 
 
 
