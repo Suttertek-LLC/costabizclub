@@ -57,10 +57,11 @@ Paola;Donatiello;(+1) 786-458-9612;paola@mayoraaudioproductions.com;Mayora Audio
 Carla;Pella;(+1) 305-915-2855;Cmonicap08@gmail.com;Mighty;;Amazon Bussiness Prime;;Yes;Yes 
 Kamila;Bermudez;(+1) 786-612-9105;Move.it.express2001@gmail.com;Move it express;;Residential moving services and commercial cargo transport;Kamila.jpg;Yes;Yes
 Ashley;Nieto;(+1) 305-343-7220;Miamimedeval@aol.com;Miami Medical Evaluations;https://www.miamimedeval.com;Medical center;Ashley.jpeg;Yes;Yes
-Mireya;Pereira;(+1)	786-448-1359;info@mireyapereira.com;Alimenta tu Alma;https://www.alimentatualma.com;Wellness;;No;Yes
+Mireya;Pereira;(+1)	786-448-1359;info@mireyapereira.com;Alimenta tu Alma;https://www.alimentatualma.com;Wellness;Mireya.jpg;No;Yes
 Daysi;Salazar;(+1) 985-414-4914;daysi@mymicroburst.com;MICROBURST;https://www.mymicroburst.com;Boutique Marketing Agency;Daysi.jpeg;Yes;Yes
 Geoffrey;Cruceta;(+1)	786-553-8627;geoffrey.cruceta@citynational.com;City national;;Business banking, loans;Geoffrey.jpg;Yes;Yes
 Cesar;Reyes;(+1) 305-431-4887;creybal@yahoo.com;Lopez & Partners LLC;;Accounting, Tax & Business Consulting;Cesar.jpg;Yes;Yes
+Phil;Perreira;(+1) 347-837-0140;phil@p2mep.com;Prime Property MEP (or P2MEP);http://P2MEP.com;Electrical, Mechanical, Plumbing Engineering and Real Estate;;Yes;Yes
 
 `.trim();
 
